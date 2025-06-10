@@ -2,15 +2,15 @@
 
 #include <stdio.h>
 
-struct CD {
+typedef struct {
     char banda[50];
     int ano;
     char genero[30];
     int quantidade;
     float preco;
-};
+} CD;
 
-struct CD cd;
+typedef struct CD cd;
 
 void cadastrarCD();
 void venderCD();
