@@ -27,7 +27,6 @@ void buscarLocacoesPorCliente(Locacao *locacoes, int totalLocacoes, int idClient
     for (int i = 0; i < totalLocacoes; i++) {
         if (locacoes[i].IDCliente == idCliente) {
             printf("Filme: %s\n", locacoes[i].Filme);
-            printf("Data: %s\n", locacoes[i].Data);
         }
     }
 }
