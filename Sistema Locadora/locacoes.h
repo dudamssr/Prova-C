@@ -4,7 +4,6 @@
 typedef struct {
     int IDCliente;
     char Filme[50];
-    char Data[11]; 
 } Locacao;
 
 void realizarLocacao(Locacao *locacoes, int *totalLocacoes, Cliente *clientes, int totalClientes);
