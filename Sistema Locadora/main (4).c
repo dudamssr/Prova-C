@@ -46,7 +46,8 @@ int main() {
                 break;
             case 5:
                 printf("Digite o ID do cliente: ");
-                scanf("%d", &idCliente); buscarLocacoesPorCliente(locacoes, totalLocacoes, idCliente);
+                scanf("%d", &idCliente); 
+                buscarLocacoesPorCliente(locacoes, totalLocacoes, idCliente);
                 break;
             case 6:
                 printf("Digite o ID do cliente: ");
@@ -64,6 +65,7 @@ int main() {
 
     return 0;
 }
+        
 void finalizarfuncao() {
     printf("Saindo...\n");
     getchar();
