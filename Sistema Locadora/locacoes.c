@@ -20,7 +20,6 @@ void listarLocacoes(Locacao *locacoes, int totalLocacoes) {
     for (int i = 0; i < totalLocacoes; i++) {
         printf("ID Cliente: %d\n", locacoes[i].IDCliente);
         printf("Filme: %s\n", locacoes[i].Filme);
-        printf("Data: %s\n", locacoes[i].Data);
     }
 }
 void buscarLocacoesPorCliente(Locacao *locacoes, int totalLocacoes, int idCliente) {
